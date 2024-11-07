@@ -2,6 +2,13 @@ body {
     background-color: gray;
     margin: 0;
 }
+
+main {
+    background-image: url(./images/desktop-wallpaper-japanese-anime-town-landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 /* Header */
 .company-logo {
     display: flex;
@@ -34,11 +41,11 @@ body {
     background-image: url(./images/the-top-25-greatest-anime-characters-of-all-time_mafe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 650px;
     text-align: center;
     display: grid;
     place-items: center;
-    margin-top: 10px;
 }
 
 .Mission-Content {
@@ -47,21 +54,23 @@ body {
 }
 
 #Services {
-    margin-top: 16px;
+
 }
 
 .Services-Content {
     display: flex;
-    gap: 16px;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 100%;
     font-weight: bold;
+    background-color: gray;
+    text-align: center;
 }
 
 .Services-Content h2, p {
     margin: 0;
+    padding: 16px;
 }
 
 .Services-Boxes {
@@ -71,7 +80,7 @@ body {
 }
 
 .Services-Shows, .Services-Plans, .Services-Contact {
-    padding: 10px;
+    padding: 0 10px 10px;
     max-height: fit-content;
     background-color: rgba(255, 255, 255, 0.5);
 }
